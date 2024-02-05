@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramisetty</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo"><img src="assets/images/rd-logo.png" alt=""></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo"><img src="assets/images/rd-logo.png" alt=""></a>
+
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-toggler>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-toggler>Products</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-toggler>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#testimonial" class="navbar-link" data-nav-toggler>Testimonial</a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-toggler>Blog</a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+        <!-- <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="person-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+        </button> -->
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+
+        <a href="#" class="header-action-btn login-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Login / Register</span>
+        </a>
+
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-box>
+    <div class="container">
+
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
+
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Welcome to Ramisetty Distrubutions</p>
+
+            <h2 class="h1 hero-title">Boost Your Profits With Our Quality</h2>
+
+            <p class="hero-text">
+              Quality, Variety and Affordability for Your Retail Needs
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Shop Now</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <img class="hero-circle" src="./assets/images/png-2.png" width="500" height="500" loading="lazy"
+              alt="hero image" class="w-100">
+
+            <img src="./assets/images/png-9.png" width="318" height="352" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <!-- <img src="./assets/images/hero-abs-2.png" width="160" height="160" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2"> -->
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <!-- <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Course Categories</p>
+
+          <h2 class="h2 section-title">Popular Topics To Learn</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Personal Development</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="file-tray-full-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Human Research</a>
+                  </h3>
+
+                  <span class="card-meta">24 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Art & Design</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="layers-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Business Management</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="laptop-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Web Development</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="thumbs-up-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Lifestyle</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Digital Marketing</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Data Sciences</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="medkit-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Health & Fitness</a>
+                  </h3>
+
+                  <span class="card-meta">39 Course</span>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" id="courses" aria-label="course"
+        style="background-image: url('./assets/images/course-bg.jpg')">
+        <div class="container">
+
+          <!-- <p class="section-subtitle">Popular Courses</p> -->
+
+          <h2 class="h2 section-title">What We Offer</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/oils.jpg" width="370" height="270" loading="lazy" alt="Product Image"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Products Catagory Name Here</span>
+
+                  <!-- <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button> -->
+
+                </div>
+
+                <!-- <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Product Name</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(250 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">$29.00</span>
+
+                      <del class="del">$39.00</del>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="card-meta-text">47 </span>
+                    <a href="#" class="card-title">Add to Cart</a>
+                    </div>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+
+                  </div>
+
+                </div> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/India-Healhcare-products.jpg" width="370" height="270" loading="lazy"
+                    alt="Product Image" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Products Catagory Name Here</span>
+
+                  <!-- <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button> -->
+
+                </div>
+
+                <!-- <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Product Name</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(250 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">$29.00</span>
+
+                      <del class="del">$39.00</del>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="card-meta-text">47 </span>
+                    <a href="#" class="card-title">Add to Cart</a>
+                    </div>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+
+                  </div>
+
+                </div> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/aashirvaad.jpg" width="370" height="270" loading="lazy" alt="Product Image"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Products Catagory Name Here</span>
+
+                  <!-- <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button> -->
+
+                </div>
+
+                <!-- <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Product Name</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(250 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">$29.00</span>
+
+                      <del class="del">$39.00</del>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="card-meta-text">47 </span>
+                    <a href="#" class="card-title">Add to Cart</a>
+                    </div>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+
+                  </div>
+
+                </div> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/rice.jpg" width="370" height="270" loading="lazy" alt="Product Image"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Products Catagory Name Here</span>
+
+                  <!-- <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button> -->
+
+                </div>
+
+                <!-- <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Product Name</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(250 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">$29.00</span>
+
+                      <del class="del">$39.00</del>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="card-meta-text">47 </span>
+                    <a href="#" class="card-title">Add to Cart</a>
+                    </div>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+
+                  </div>
+
+                </div> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/read to eat food.jpg" width="370" height="270" loading="lazy"
+                    alt="Product Image" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Products Catagory Name Here</span>
+
+                  <!-- <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button> -->
+
+                </div>
+
+                <!-- <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Product Name</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(250 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">$29.00</span>
+
+                      <del class="del">$39.00</del>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="card-meta-text">47 </span>
+                    <a href="#" class="card-title">Add to Cart</a>
+                    </div>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+
+                  </div>
+
+                </div> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/snacks and confectionery.jpg" width="370" height="270" loading="lazy"
+                    alt="Product Image" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Products Catagory Name Here</span>
+
+                </div>
+
+                <!-- <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Product Name</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(250 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">$29.00</span>
+
+                      <del class="del">$39.00</del>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="card-meta-text">47 </span>
+                    <a href="#" class="card-title">Add to Cart</a>
+                    </div>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+
+                  </div>
+
+                </div> -->
+
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-2.jpg" width="370" height="270" loading="lazy"
+                    alt="Machine Learning A-Z: Hands-On Python and java" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Advanced</span>
+
+                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="card-meta-text">48 Lessons</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Machine Learning A-Z: Hands-On Python and java</a>
+                  </h3>
+
+                  <div class="rating-wrapper">
+
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <span class="rating-text">(18 Review)</span>
+
+                  </div>
+
+                  <div class="card-footer">
+
+                    <div class="card-price">
+                      <span class="span">Free</span>
+                    </div>
+
+                    <div class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="card-meta-text">65 Students</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="span">View All Your Needs</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/png-6.png" width="450" height="590" loading="lazy" alt="about banner"
+              class="w-100 about-img">
+
+            <img src="./assets/images/png-10.png" width="200" height="242" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <!-- <img src="./assets/images/about-abs-2.jpg" width="150" height="200" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2"> -->
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Unleashing The Power Of Wholesale Excellence</h2>
+
+            <!-- <ul class="about-list">
+
+              <li class="about-item">
+
+                <div class="item-icon item-icon-1">
+                  <img src="./assets/images/about-icon-1.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <h3 class="h3 item-title">Industry Expert Instructor</h3>
+
+                  <p class="item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmoded tempor incididunt dolore magna
+                    aliqua.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="item-icon item-icon-2">
+                  <img src="./assets/images/about-icon-2.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <h3 class="h3 item-title">Up-to-Date Course Content</h3>
+
+                  <p class="item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmoded tempor incididunt dolore magna
+                    aliqua.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="item-icon item-icon-3">
+                  <img src="./assets/images/about-icon-3.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <h3 class="h3 item-title">Biggest Student Community</h3>
+
+                  <p class="item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmoded tempor incididunt dolore magna
+                    aliqua.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul> -->
+            <p class="acp">We Redefine The Wholesale Grocery Experience With a Commitment to Quality, Variety, and
+              Unparalleled Service. Our Curated Selection of Fresh and Pantry Essentials Empowers Retailers to Meet
+              Diverse Consumer Demands. Join us in Transforming the Grocery Landscape, Where Excellence Meets
+              Affordability in Every Aisle. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sunt
+              magni nemo eligendi veniam iure aperiam! Et blanditiis, nihil, optio illo provident doloribus asperiores
+              natus quam quis sapiente voluptatum. Incidunt suscipit minus quam optio, ratione veritatis fuga, similique
+              facilis perferendis, quibusdam temporibus itaque animi saepe eum. Ad harum provident nam iure voluptas
+              error non aliquam aspernatur dicta reprehenderit omnis aut nostrum est, fugit minus magni expedita
+              consequuntur quibusdam in commodi earum. Dolore provident adipisci nam, quae molestiae quo ab at. </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Know More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <!-- <section class="section cta" aria-label="workshop" style="background-image: url('./assets/images/cta-bg.png')">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.jpg" width="580" height="380" loading="lazy" alt="cta banner"
+              class="img-cover">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">Free Workshop</p>
+
+            <h2 class="h2 section-title">Join Our Free Workshops</h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet, consect adipi scing elit, sed do
+              eiusmod tempor
+              incididunt ut sed do eiusmod tempor incididunt ut labore et dolore aliqua.
+            </p>
+
+            <a href="#" class="btn btn-secondary">
+              <span class="span">Upcomming Workshop</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <!-- <section class="section event" id="event" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle">Upcomming Event</p>
+
+          <h2 class="h2 section-title">Let’s Join Our Community</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-1.jpg" width="370" height="250" loading="lazy"
+                    alt="Innovation & Technological Entrepreneurship Team" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2022-12-04">04 Dec 2022</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Alpaca Way Anaheim, CA 92805</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Innovation & Technological Entrepreneurship Team</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Get Ticket</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-2.jpg" width="370" height="250" loading="lazy"
+                    alt="Virtual Spring Part-time Jobs Fair for Student" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2022-10-30">30th Oct 2022</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Ritter Avenue Detroit, MI 48226</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Virtual Spring Part-time Jobs Fair for Student</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Get Ticket</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-3.jpg" width="370" height="250" loading="lazy"
+                    alt="Explorations of Regional Chief Executive Network" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2022-09-18">18th Sep 2022</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Stout Street York, PA 17401</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Explorations of Regional Chief Executive Network</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Get Ticket</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <!-- <section class="section newsletter" aria-label="newsletter"
+        style="background-image: url('./assets/images/newsletter-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle">Subscribe Newsletter</p>
+
+          <h2 class="h2 section-title">Get Every Latest News</h2>
+
+          <form action="" class="newsletter-form">
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" aria-label="email" placeholder="Enter your mail address" required
+                class="email-field">
+
+              <ion-icon name="mail-open-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section> -->
+
+    </article>
+  </main>
+
+  <!-- 
+        - #NEWSLETTER
+      -->
+
+  <section id="testimonial" class="section newsletter" aria-label="newsletter"
+    style="background-image: url('./assets/images/bg-3.jpg')">
+
+    <h2 class="h2 section-title white">Why You Trust Us<span></span></h2>
+    <p class="choose-para">
+      Quality is non-negotiable for us. We source our products from trusted suppliers, adhere to stringent quality
+      control measures, and consistently meet or exceed industry standards. Your satisfaction is our priority, and we
+      guarantee the excellence of every product we offer.
+    </p>
+    <div class="choose-container">
+      <div class="choose-box">
+        <img src="./assets/images/best-price.png" width="100" height="80" loading="lazy" alt="icon">
+        <h3>Best Price</h3>
+        <p>We prioritize the procurement of high-quality, fresh, and premium groceries to ensure your customers receive
+          the best.</p>
+      </div>
+
+      <div class="choose-box">
+        <img src="./assets/images/fast-delivery.png" width="100" height="80" loading="lazy" alt="icon">
+        <h3>Fast Delivery</h3>
+        <p>We prioritize the procurement of high-quality, fresh, and premium groceries to ensure your customers receive
+          the best.</p>
+      </div>
+
+      <div class="choose-box">
+        <img src="./assets/images/quality.png" width="100" height="80" loading="lazy" alt="icon">
+        <h3>Top Quality</h3>
+        <p>We prioritize the procurement of high-quality, fresh, and premium groceries to ensure your customers receive
+          the best.</p>
+      </div>
+
+      <!-- <div class="choose-box">
+        <img src="./assets/images/best-price.png" width="100" height="80" loading="lazy" alt="icon">
+        <h3>Top Quality</h3>
+        <p>We prioritize the procurement of high-quality, fresh, and premium groceries to ensure your customers receive the best.</p>
+      </div> -->
+    </div>
+    <!-- <h2 class="h2 section-title">Testimonial <span></span></h2> -->
+    <div class="testi container">
+      <div class="chat-testimonial">
+        <img src="assets/images/user-men.png" alt="Client 1">
+        <h3>Raghavendra</h3>
+        <p>
+          "I've been running a local grocery store for years, and finding a reliable wholesale supplier was always a challenge until I discovered [Your Wholesale Grocery]. From the very first order, they exceeded my expectations."</p>
+      </div>
+
+      <div class="chat-testimonial">
+        <img src="assets/images/user-women.png" alt="Client 2">
+        <h3>Maha Lakshmi</h3>
+        <p>
+          "Smooth and stress-free home buying experience with Groavy. Their
+          knowledgeable team and efficient process made finding our perfect home a breeze. Grateful for
+          their expertise and excellent service!"</p>
+      </div>
+
+      <!-- Add more testimonials as needed -->
+
+    </div>
+
+
+
+
+  </section>
+
+  <section class="section contact" id="contact" aria-label="contact">
+    <div class="container">
+
+      <h2 class="h2 section-title">Let's Contact With Us</h2>
+
+      <p class="section-text">
+        Connect with us today to turn your real estate inquiries into solutions. Our dedicated team is here to
+        assist you with personalized and expert guidance.
+      </p>
+
+      <form action="" class="contact-form">
+
+        <div class="input-wrapper">
+          <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
+
+          <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
+            class="input-field">
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
+
+          <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
+        </div>
+
+        <textarea name="message" aria-label="message" placeholder="Your message...*" required
+          class="input-field"></textarea>
+
+        <!-- <div class="checkbox-wrapper">
+          <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+          <label for="terms" class="label">
+            Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
+              Policy</a>
+          </label>
+        </div> -->
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+
+      </form>
+
+      <ul class="contact-list">
+
+
+
+        <li class="contact-item">
+          <div class="contact-card">
+
+            <div class="card-icon">
+              <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="card-content">
+
+              <h3 class="h3 card-title">Address</h3>
+
+              <address class="card-address">
+                𝟑𝟎𝟖 𝐇𝐚𝐳𝐞𝐥𝐰𝐨𝐨𝐝 𝐒𝐭, 𝐒𝐮𝐢𝐭𝐞 𝟏 & 𝟐 𝐋𝐞𝐚𝐧𝐝𝐞𝐫, 𝐓𝐞𝐱𝐚𝐬 𝟕𝟖𝟔𝟒𝟏
+              </address>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="contact-card">
+
+            <div class="card-icon">
+              <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="card-content">
+
+              <h3 class="h3 card-title">Call</h3>
+
+              <a href="tel:+91 6366829999" class="card-link">+𝟭𝟳𝟯𝟳-𝟮𝟴𝟳-𝟰𝟴𝟳𝟯</a>
+              <!-- <a href="tel:+2414524526" class="card-link">+241 452 4526</a> -->
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="contact-card">
+
+            <div class="card-icon">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="card-content">
+
+              <h3 class="h3 card-title">Mail</h3>
+
+              <a href="mailto:info@ramisettydistributions.com" class="card-link">info@ramisettydistributions.com</a>
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img src="assets/images/rd-logo.png" alt=""></a>
+
+          <p class="section-text">
+            Discover a seamless wholesale grocery experience with Ramisetty Distrubutions. From a diverse product range to reliable delivery, we're your trusted partner for quality and convenience.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61555877516281" class="social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/ramisettydistributions/" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Customer Service</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Help Centre</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Contact Us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Delivery & Dispatch</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Payment Methods</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">New Customers</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">About</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#courses" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Products</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#testimonial" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Testimonial</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+            <address class="footer-link">
+              308 Hazelwood St, Suite 1 & 2 Leander, Texas 78641
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+13647657839" class="footer-link">+ 1 (737) 298-0129</a>
+          </li>
+
+          <!-- <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+13647657840" class="footer-link">+ 1 (364) 765-7840</a>
+          </li> -->
+
+          <li class="footer-item">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@ramisettydistributions.com" class="footer-link">info@ramisettydistributions.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          Copyright © 2024 by Ramisetty Distrubutions. | All Rights Reserved. | Desinged and Developed by <a href="jgpsolutions.in">JGP Solutions.</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!-- 
+    - #Whatsapp Chat Icon
+  -->
+  <div class="whatsapp-icon">
+    <a href="https://wa.me/7372874873" target="_blank">
+      <p>Chat With Us</p><img src="./assets/images/whatsapp.svg" alt="">
+    </a>
+  </div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/7e3b9da1c8.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
